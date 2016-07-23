@@ -42,8 +42,13 @@ Install Python:
     
     $ pip install virtualenv
 
-Python
-======
+
+===============
+
+
+Python New:
+-----------
+
     ::
 
     $ mkdir project_name
