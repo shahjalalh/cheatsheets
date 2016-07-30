@@ -161,3 +161,12 @@ project_name/
     	urls.py
 
     	views.py
+
+
+===============
+
+Packaging:
+----------
+
+$ pip freeze > requirements.txt
+
