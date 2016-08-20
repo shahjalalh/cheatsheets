@@ -1,9 +1,45 @@
-=====
-Bower
-=====
+=========
+Web Tools
+=========
 
-command:
---------
+
+
+git:
+----
+    ::
+
+    $ git status
+    $ git config --global user.name "Your Name"
+    $ git config --global user.email you@example.com
+    $ git remote add origin https://github.com/<your-github-username>/my-first-blog.git
+    $ git push -u origin master
+
+
+    ::
+
+    $ git config credential.helper store
+    $ git push http://example.com/repo.git
+
+        Username: <type your username>
+
+        Password: <type your password>
+
+
+    [several days later]
+
+    ::
+
+    $ git push http://example.com/repo.git
+
+    [your credentials are used automatically]
+
+
+===============
+
+
+
+Bower:
+------
     ::
 
     # Install bower
