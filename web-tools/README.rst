@@ -49,7 +49,7 @@ Bower:
     $bower init
 
      Install packages
-    $ bower install <package>
+    $ bower install <package> -S
 
      Install from bower.json
     $ bower install
