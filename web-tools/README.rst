@@ -69,3 +69,51 @@ Bower:
 
 ===============
 
+
+Less:
+-----
+    ::
+
+    Install less
+
+    $ npm install -g less
+
+
+    compile and save
+
+    $ lessc styles.less styles.css
+
+
+    Compresses the css output from less using clean-css.
+
+    $ lessc --clean-css styles.less styles.min.css
+
+
+===============
+
+
+Sass:
+-----
+    ::
+
+    Install Sass
+
+    $ gem install sass
+
+
+    Checking version
+
+    $ sass -v
+
+
+    compile and save
+
+    $ sass input.scss output.css
+
+
+    running Sass while watching an entire directory
+
+    $ sass --watch app/sass:public/stylesheets
+
+
+===============
